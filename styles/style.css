@@ -1,0 +1,203 @@
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: rgb(129, 20, 129);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(129, 20, 129);
+}
+header ul {
+  list-style-type: none;
+  color: white;
+}
+header ul li:first-child {
+  font-weight: bold;
+  font-size: x-large;
+}
+header ul svg {
+  fill: white;
+}
+header nav {
+  align-self: center;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  margin: 1vw;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+div.WrapBody {
+  padding-inline: 3vw;
+}
+
+#div1 {
+  border: 1px solid blue;
+  width: 50vw;
+  height: 50vh;
+  display: none;
+}
+
+section.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 10vh;
+}
+section.about div {
+  width: 50%;
+}
+section.about img {
+  height: 150px;
+  border-radius: 50%;
+}
+section.about h1 span {
+  font-size: larger;
+}
+
+section.Projects ul {
+  list-style-type: none;
+}
+section.Projects ul li {
+  margin-block: 3vh;
+  font-weight: bold;
+}
+section.Projects ul li li {
+  list-style-type: disc;
+  font-weight: normal;
+}
+section.Projects ul hr {
+  width: 80%;
+}
+
+section.Recommendation {
+  display: grid;
+  grid-template-rows: 2;
+}
+section.Recommendation h1 {
+  margin-bottom: 1px;
+}
+section.Recommendation div {
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+section.Recommendation div p {
+  flex: 1;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-inline: 1vw;
+  text-align: justify;
+  padding: 1%;
+}
+section.Recommendation div p::before,
+section.Recommendation div p::after {
+  content: '"';
+}
+
+section.Skills div {
+  display: flex;
+}
+section.Skills div ul {
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px 1px grey;
+  list-style-type: none;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 1%;
+}
+section.Skills div ul li {
+  font-weight: bold;
+  margin-block: 15px;
+}
+section.Skills div ul li img {
+  width: 50px;
+  height: 50px;
+  margin: 0%;
+}
+section.Skills div ul li:first-child {
+  padding: 0%;
+}
+
+section.Comments {
+  display: flex;
+  flex-direction: column;
+}
+section.Comments ul.Confirmation {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid purple;
+  border-radius: 20px;
+  width: 25vw;
+  padding: 0%;
+  background-color: rgb(242, 177, 242);
+  position: fixed;
+  top: 25vh;
+  left: 35vw;
+}
+section.Comments ul.Confirmation li {
+  font-weight: bold;
+  list-style-type: none;
+  margin-block: 10px;
+}
+section.Comments ul.Confirmation li svg {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+section.Comments ul.Confirmation li button {
+  padding-block: 10px;
+  padding-inline: 50px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+  border: 1px solid rgb(129, 20, 129);
+  color: rgb(129, 20, 129);
+}
+section.Comments div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.Comments div * {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 30vw;
+  margin-block: 1vh;
+  padding: 5px;
+}
+section.Comments div textarea {
+  height: 10vh;
+}
+section.Comments div textarea:focus,
+section.Comments div input:focus {
+  outline: none;
+}
+section.Comments div button {
+  width: 10vw;
+  color: rgb(129, 20, 129);
+  font-weight: bold;
+  margin-top: 2vh;
+}
+section.Comments a {
+  align-self: flex-end;
+}
+section.Comments a svg {
+  border-radius: 25px;
+  background-color: rgb(129, 20, 129);
+  fill: white;
+}/*# sourceMappingURL=style.css.map */
